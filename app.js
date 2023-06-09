@@ -10,7 +10,14 @@ app.post("/post",async(req,res)=>{
     console.log(req.body);
     const {data}=req.body;
 
-    if(data == "Harrison"){
-        res.send({status:"ok"})
+    try{
+        if(data == "Harrison"){
+            res.send({status:"ok"})
+        }else{
+            res.send({status:"User Not Found"})
+        }
+        
+    }catch(error){
+        res.send({status:"Something went wrong try again"}) 
     }
-})
+});
