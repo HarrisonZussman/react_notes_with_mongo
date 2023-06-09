@@ -1,0 +1,23 @@
+{
+  "name": "react_notes_with_mongo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HarrisonZussman/react_notes_with_mongo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HarrisonZussman/react_notes_with_mongo/issues"
+  },
+  "homepage": "https://github.com/HarrisonZussman/react_notes_with_mongo#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  }
+}
