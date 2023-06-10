@@ -3,8 +3,8 @@ import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "./app.css";
 import {BrowserRouter as Router, Routes, Route, link} from "react-router-dom";
 
-import Login from "./components/login_component";
-import Signup from "./components/signup_component"
+import Login from "./login_component";
+import Signup from "./signup_component"
 
 function app(){
     return (
