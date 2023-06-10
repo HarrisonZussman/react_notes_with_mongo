@@ -1,10 +1,11 @@
 const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
+const mongodb = require("mongodb")
 app.use(express.json())
 
 
-const mongoUrl="mongodb+srv://harrisonfzussman:Dragonseye3$@cluster0.s7nt6yt.mongodb.net/?retryWrites=true&w=majority";
+const mongoUrl="mongodb+srv://harrisonfzussman:vHLD0zvGZJHXJ0vC@cluster0.s7nt6yt.mongodb.net/?retryWrites=true&w=majority";
 
 mongoose.connect(mongoUrl,{
     useNewUrlParser:true
