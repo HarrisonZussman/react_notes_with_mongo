@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "react-scripts start",
+    "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "repository": {
     "type": "git",
@@ -17,6 +21,8 @@
   },
   "homepage": "https://github.com/HarrisonZussman/react_notes_with_mongo#readme",
   "dependencies": {
+    "concurrently": "^8.2.0",
+    "cors": "^2.8.5",
     "express": "^4.18.2",
     "mongodb": "^5.6.0",
     "mongoose": "^7.2.3",
